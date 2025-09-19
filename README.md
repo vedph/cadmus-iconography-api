@@ -9,3 +9,7 @@
 (replace with the current version).
 
 This is a Cadmus API layer customized for the PRJ project. Most of its code is derived from [shared Cadmus libraries](https://github.com/vedph/cadmus-api).
+
+## History
+
+- 2025-09-19: updated packages.
