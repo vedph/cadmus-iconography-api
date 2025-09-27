@@ -13,7 +13,7 @@
           "isRequired": true,
           "colorKey": "F8C0C0",
           "groupKey": "general",
-          "sortKey": "a"
+          "sortKey": "01"
         },
         {
           "typeId": "it.vedph.note",
@@ -21,7 +21,7 @@
           "description": "A free text note.",
           "colorKey": "B0A0F8",
           "groupKey": "general",
-          "sortKey": "b"
+          "sortKey": "02"
         },
         {
           "typeId": "it.vedph.iconography.instructions",
@@ -29,7 +29,7 @@
           "description": "Instructions for the artist.",
           "colorKey": "DDB967",
           "groupKey": "iconography",
-          "sortKey": "c"
+          "sortKey": "03"
         }
       ]
     }
@@ -71,6 +71,44 @@
         {
           "id": "it.vedph.iconography.instructions",
           "value": "instructions"
+        }
+      ]
+    },
+    {
+      "id": "decorated-count-ids@en",
+      "entries": [
+        {
+          "id": "rr",
+          "value": "righe"
+        },
+        {
+          "id": "ll",
+          "value": "linee"
+        }
+      ]
+    },
+    {
+      "id": "doc-reference-types@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "biblio",
+          "value": "bibliography"
+        },
+        {
+          "id": "cite",
+          "value": "citation"
+        },
+        {
+          "id": "ms",
+          "value": "manuscript"
+        },
+        {
+          "id": "arch",
+          "value": "archive doc."
         }
       ]
     },
@@ -138,6 +176,55 @@
         {
           "id": "lat",
           "value": "latino"
+        }
+      ]
+    },
+    {
+      "id": "ico-instruction-positions@en",
+      "entries": [
+        {
+          "id": "margin-top",
+          "value": "margine sup."
+        },
+        {
+          "id": "margin-inner",
+          "value": "margine int."
+        },
+        {
+          "id": "margin-outer",
+          "value": "margine est."
+        },
+        {
+          "id": "margin-bottom",
+          "value": "margine inf."
+        },
+        {
+          "id": "margin-bottom-inner",
+          "value": "margine inf. int."
+        },
+        {
+          "id": "margin-bottom-outer",
+          "value": "margine inf. est."
+        },
+        {
+          "id": "reserved",
+          "value": "area riservata"
+        },
+        {
+          "id": "intercolumn",
+          "value": "intercolumnio"
+        },
+        {
+          "id": "intercolumn-top",
+          "value": "intercolumnio sup."
+        },
+        {
+          "id": "intercolumn-bottom",
+          "value": "intercolumnio inf."
+        },
+        {
+          "id": "other-support",
+          "value": "altro supporto"
         }
       ]
     },
@@ -277,89 +364,19 @@
       ]
     },
     {
-      "id": "ico-instruction-positions@en",
-      "entries": [
-        {
-          "id": "margin-top",
-          "value": "margine sup."
-        },
-        {
-          "id": "margin-inner",
-          "value": "margine int."
-        },
-        {
-          "id": "margin-outer",
-          "value": "margine est."
-        },
-        {
-          "id": "margin-bottom",
-          "value": "margine inf."
-        },
-        {
-          "id": "margin-bottom-inner",
-          "value": "margine inf. int."
-        },
-        {
-          "id": "margin-bottom-outer",
-          "value": "margine inf. est."
-        },
-        {
-          "id": "reserved",
-          "value": "area riservata"
-        },
-        {
-          "id": "intercolumn",
-          "value": "intercolumnio"
-        },
-        {
-          "id": "intercolumn-top",
-          "value": "intercolumnio sup."
-        },
-        {
-          "id": "intercolumn-bottom",
-          "value": "intercolumnio inf."
-        },
-        {
-          "id": "other-support",
-          "value": "altro supporto"
-        }
-      ]
-    },
-    {
-      "id": "decorated-count-ids@en",
-      "entries": [
-        {
-          "id": "rr",
-          "value": "righe"
-        },
-        {
-          "id": "ll",
-          "value": "linee"
-        }
-      ]
-    },
-    {
-      "id": "doc-reference-types@en",
+      "id": "ico-instruction-type-tags@en",
       "entries": [
         {
           "id": "-",
-          "value": "---"
+          "value": "current"
         },
         {
-          "id": "biblio",
-          "value": "bibliography"
+          "id": "prev",
+          "value": "previous"
         },
         {
-          "id": "cite",
-          "value": "citation"
-        },
-        {
-          "id": "ms",
-          "value": "manuscript"
-        },
-        {
-          "id": "arch",
-          "value": "archive doc."
+          "id": "next",
+          "value": "next"
         }
       ]
     },
