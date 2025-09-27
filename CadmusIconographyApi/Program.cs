@@ -214,7 +214,7 @@ public static class Program
             app.MapScalarApiReference(options =>
             {
                 options.WithTitle("Cadmus Iconography API")
-                       .WithPreferredScheme("Bearer");
+                       .AddPreferredSecuritySchemes("Bearer");
             });
 
             Log.Information("Running API");
