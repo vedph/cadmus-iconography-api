@@ -368,15 +368,15 @@
       "entries": [
         {
           "id": "-",
-          "value": "current"
+          "value": "-"
         },
         {
           "id": "prev",
-          "value": "previous"
+          "value": "precedente"
         },
         {
           "id": "next",
-          "value": "next"
+          "value": "successivo"
         }
       ]
     },
