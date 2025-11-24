@@ -12,6 +12,12 @@ This is a Cadmus API layer customized for the PRJ project. Most of its code is d
 
 ## History
 
+### 1.0.0
+
+- 2025-11-24: ⚠️ upgraded to NET 10.
+
+### 0.0.1
+
 - 2025-10-05: updated packages.
 - 2025-10-02: updated packages.
 - 2025-09-27: updated packages.
