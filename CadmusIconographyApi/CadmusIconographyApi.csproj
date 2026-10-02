@@ -10,38 +10,38 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Cadmus.Api.Config" Version="11.0.9" />
-		<PackageReference Include="Cadmus.Api.Controllers" Version="13.0.8" />
-		<PackageReference Include="Cadmus.Api.Controllers.Import" Version="12.0.7" />
-		<PackageReference Include="Cadmus.Api.Models" Version="11.0.6" />
-		<PackageReference Include="Cadmus.Api.Services" Version="13.0.8" />
-		<PackageReference Include="Cadmus.Graph.Ef.PgSql" Version="10.0.7" />
-		<PackageReference Include="Cadmus.Graph.Extras" Version="10.0.7" />
-		<PackageReference Include="Cadmus.Iconography.Services" Version="1.0.2" />
-		<PackageReference Include="Cadmus.Index.Ef.PgSql" Version="10.0.7" />
-		<PackageReference Include="Cadmus.Core" Version="10.0.6" />
-		<PackageReference Include="Cadmus.Mongo" Version="10.0.7" />
-		<PackageReference Include="Cadmus.Seed" Version="10.1.5" />
-		<PackageReference Include="Cadmus.Seed.General.Parts" Version="8.0.3" />
+		<PackageReference Include="Cadmus.Api.Config" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Api.Controllers" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Api.Controllers.Import" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Api.Models" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Api.Services" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Graph.Ef.PgSql" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Graph.Extras" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Iconography.Services" Version="1.0.3" />
+		<PackageReference Include="Cadmus.Index.Ef.PgSql" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Core" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Mongo" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Seed" Version="16.0.7" />
+		<PackageReference Include="Cadmus.Seed.General.Parts" Version="16.0.7" />
 		<PackageReference Include="Fusi.Antiquity" Version="6.0.0" />
-		<PackageReference Include="Fusi.Api.Auth.Controllers" Version="7.0.2" />
+		<PackageReference Include="Fusi.Api.Auth.Controllers" Version="7.0.3" />
 		<PackageReference Include="Fusi.Microsoft.Extensions.Configuration.InMemoryJson" Version="5.0.0" />
 		<PackageReference Include="MessagingApi" Version="6.0.0" />
 		<PackageReference Include="MessagingApi.SendGrid" Version="6.0.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.9" />
-		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.9" />
-		<PackageReference Include="Polly" Version="8.7.0" />
-		<PackageReference Include="Scalar.AspNetCore" Version="2.16.3" />
-		<PackageReference Include="Serilog" Version="4.3.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.12" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.12" />
+		<PackageReference Include="Polly" Version="8.8.0" />
+		<PackageReference Include="Scalar.AspNetCore" Version="2.17.13" />
+		<PackageReference Include="Serilog" Version="4.4.0" />
 		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
 		<PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
 		<PackageReference Include="Serilog.Extensions.Hosting" Version="10.0.0" />
 		<PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
 		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
-		<PackageReference Include="Serilog.Sinks.MongoDB" Version="7.2.0" />
-		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.2.0" />
-		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.19.1" />
+		<PackageReference Include="Serilog.Sinks.MongoDB" Version="7.3.0" />
+		<PackageReference Include="Serilog.Sinks.Postgresql.Alternative" Version="4.3.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.23.0" />
 	</ItemGroup>
 
 </Project>
